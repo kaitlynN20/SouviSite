@@ -14,7 +14,7 @@
 </div><!-- #content -->
 <div class="footer-banner">
     <div>
-        <img src="http://localhost:8888/Souvinear/wp-content/uploads/2019/03/banner-arrow.png">
+        <img src="http://localhost:8888/wordpress/wp-content/uploads/2019/03/banner-arrow.png">
     </div>
     <p>Subscribe to our newsletter</p>
 </div>

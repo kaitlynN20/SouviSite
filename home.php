@@ -25,7 +25,13 @@ get_header();
                 <p class="headline"> <?php the_field('hero_headline'); ?> </p>
                 <p class="tagline"> <?php the_field('hero_tagline'); ?> </p>
             </div>
-             <p class="scroll">Scroll for more</p>
+            <div id="scroll_contain">
+                <div id="arrow_contain">
+                    <img class="arrow_size" src="<?php the_field('featured_down_arrow'); ?>" alt="Down Arrow">
+                </div>
+                <p class="scroll">Scroll for more</p>
+            </div>
+             
         </div>
 
 </div>
@@ -60,15 +66,18 @@ get_header();
 ?>
 
 <div id="feature-section-container" style="background-image:url('<?php the_field('background_image')?>');">
-    <div class="music-bubble-container one">
-        <div>
-            <img class="one" src="http://localhost:8888/Souvinear/wp-content/uploads/2019/02/pinned-song_one.png">
-        </div>
-        <div>
-            <img class="two" src="http://localhost:8888/Souvinear/wp-content/uploads/2019/02/pinned-song_two.png">
-        </div>
-        <div>
-            <img class="three" src="http://localhost:8888/Souvinear/wp-content/uploads/2019/02/pinned-song_one.png">
+
+    <div class="music-bubble-container">
+        <div class="song_contain">
+            <div>
+                <img class="one" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/pinned-song_3.png">
+            </div>
+            <div>
+                <img class="two" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/pinned-song_1.png">
+            </div>
+            <div>
+                <img class="three" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/pinned-song_3.png">
+            </div>
         </div>
     </div>
 
@@ -76,21 +85,24 @@ get_header();
         <img src="<?php the_field('section_image'); ?>">
     </div>
     
-    <div class="text-section-container">
-        <p class="section-paragraph"><?php the_field('section_paragraph'); ?></p>
-        <a href="<?php the_field('button_link'); ?>"><button class="section-button"> <?php the_field('button_label'); ?> </button></a>
-    </div>
-    <div class="music-bubble-container two">
-        <div>
-            <img class="one" src="http://localhost:8888/Souvinear/wp-content/uploads/2019/02/pinned-song_three.png">
-        </div>
-        <div>
-            <img class="two" src="http://localhost:8888/Souvinear/wp-content/uploads/2019/02/pinned-song_four.png">
-        </div>
-        <div>
-            <img class="three" src="http://localhost:8888/Souvinear/wp-content/uploads/2019/02/pinned-song_three.png">
+    <div class="music-bubble-container">
+        <div class="song_contain-2">
+            <div>
+                <img class="one" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/pinned-song_4.png">
+            </div>
+            <div>
+                <img class="two" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/pinned-song_2.png">
+            </div>
+            <div>
+                <img class="three" src="http://localhost:8888/wordpress/wp-content/uploads/2019/05/pinned-song_4.png">
+            </div>
         </div>
     </div>
+</div>
+
+<div class="text-section-container">
+    <p class="section-paragraph"><?php the_field('section_paragraph'); ?></p>
+    <a href="<?php the_field('button_link'); ?>"><button class="section-button"> <?php the_field('button_label'); ?> </button></a>
 </div>
 
 <?php 

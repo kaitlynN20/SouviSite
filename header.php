@@ -41,7 +41,10 @@
             ?>
             </div>
                 
-        </div>
+		</div>
+		<div class="nav-subhead">
+			<h3>Coming To The App Store June 2019</h3>
+		</div>
         
 	</header><!-- #masthead -->
 
